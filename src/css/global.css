@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --roxo: #9040B9;
+  --bege: #C98A4A;
+  --branco_bege: #FAF1E6;
+  --branco: #FFFFFF;
+  --fonte_titulo: "Berkshire Swash", cursive;
+  --fonte_texto: "Montserrat", sans-serif;
+}

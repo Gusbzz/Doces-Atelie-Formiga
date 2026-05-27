@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    width: 100%;
+    height: 2000px;
+    background-color: aquamarine;
+    padding-top: 175px;
+}
+
+.homepage {
+    width: 100%;
+    height: 589px;
+    background-color: blue;
+}
+
+.cont_imageHomepage {
+    width: 100%;
+    height: 100%;
+}
+
+.cont_imageHomepage img {
+    width: 100%;
+    height: 100%;
+}
