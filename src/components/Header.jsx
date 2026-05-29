@@ -12,11 +12,11 @@ function Header() {
             <Link to={"/"} className={styles.logo}> Doces Ateliê Formiga </Link>
             <div className={styles.botoes}>
             <Link to={"/"} className={styles.botao}> Pedidos de Emergência </Link>
-            <Link to={"/"} className={styles.botao}> Entrar/Cadastrar </Link>
+            <Link to={"/Login"} className={styles.botao}> Entrar/Cadastrar </Link>
             </div>
             </div>
             <nav className={styles.nav}>
-                <Link to={"/"} className={styles.links_nav}> FATIAS </Link>
+                <Link to={"/Produtos"} className={styles.links_nav}> FATIAS </Link>
                 <Link to={"/"} className={styles.links_nav}> PRONTA ENTREGA </Link>
                 <Link to={"/"} className={styles.links_nav}> KIT FESTA </Link>
                 <Link to={"/"} className={styles.links_nav}> BOLO DE POTE </Link>

@@ -1,21 +1,44 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import './App.css';
-import './css/global.css'
+import './css/global.css';
+
 import Header from './components/Header';
 import LandingPage from './pages/LandingPage';
+import Login from "./pages/Login";
+import Produtos from "./pages/Produtos";
 
 function App() {
 
   return (
     <Router>
-    <main>
+
       <Header />
-      <LandingPage />
-    
-      
-    </main>
+
+      <main>
+
+        <Routes>
+
+          <Route 
+            path="/" 
+            element={<LandingPage />} 
+          />
+
+          <Route 
+            path="/Login" 
+            element={<Login />} 
+          />
+
+          <Route 
+            path="/Produtos" 
+            element={<Produtos />} 
+          />
+
+        </Routes>
+
+      </main>
+
     </Router>
   );
 }
 
-export default App
+export default App;
