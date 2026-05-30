@@ -61,7 +61,7 @@ function LandingPage() {
             </div>
           </div>
           <h2 className={styles.formiga}> "Formiguinha do Pai" </h2>
-          <img src={linhaRoxa} alt="Linha divisória decorativa" />
+          <img src={linhaRoxa} alt="Linha divisória decorativa" className={styles.linhaDecorativa} />
           <h3 className={styles.pamela}> Pamela </h3>
           <p className={styles.confeiteira}> Confeiteira </p>
         </div>
