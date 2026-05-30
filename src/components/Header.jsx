@@ -16,8 +16,8 @@ function Header() {
             </div>
             </div>
             <nav className={styles.nav}>
-                <Link to={"/Produtos"} className={styles.links_nav}> FATIAS </Link>
-                <Link to={"/"} className={styles.links_nav}> PRONTA ENTREGA </Link>
+                <Link to={"/Pagina_Fatias"} className={styles.links_nav}> FATIAS </Link>
+                <Link to={"/Pagina_ProntaEntrega"} className={styles.links_nav}> PRONTA ENTREGA </Link>
                 <Link to={"/"} className={styles.links_nav}> KIT FESTA </Link>
                 <Link to={"/"} className={styles.links_nav}> BOLO DE POTE </Link>
                 <Link to={"/"} className={styles.links_nav}> DOCES </Link>
