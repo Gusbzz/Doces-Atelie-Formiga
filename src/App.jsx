@@ -7,7 +7,10 @@ import Login from "./pages/Login";
 
 import Pagina_Fatias from "./pages/Pagina_Fatias";
 import Pagina_ProntaEntrega from './pages/Pagina_ProntaEntrega';
-import Footer from './components/Footer'
+import Pagina_Kit from './pages/Pagina_Kit';
+import Pagina_BoloPote from "./pages/Pagina_BoloPote";
+import Pagina_Doces from './pages/Pagina_Doces';
+import Footer from './components/Footer';
 {/*import Produtos from "./pages/Produtos";*/}
 
 function App() {
@@ -39,6 +42,21 @@ function App() {
           <Route 
             path="/Pagina_ProntaEntrega" 
             element={<Pagina_ProntaEntrega />} 
+          />
+
+          <Route
+            path="/Pagina_Kit"
+            element={<Pagina_Kit />}
+          />
+
+          <Route
+            path="/Pagina_BoloPote"
+            element={<Pagina_BoloPote />}
+          />
+
+          <Route
+            path="/Pagina_Doces"
+            element={<Pagina_Doces />}
           />
 
         </Routes>

@@ -1,13 +1,13 @@
-import styles from '../css/Pagina_Fatias.module.css'
+import styles from '../css/Pagina_BoloPote.module.css'
 import OndasRoxasCima from '../assets/LandingPage/ondas_roxas_cima.png'
 import OndasRoxasBaixo from '../assets/LandingPage/ondas_roxas_baixo.png'
 import Banner from '../assets/LandingPage/banner.jpg'
-import Fatia from '../assets/LandingPage/fatia_kid_bueno.png'
+import Pote from '../assets/LandingPage/bolo_pote_maracuja.png'
 import Footer from '../components/Footer'
 
-function Pagina_Fatias(){
+function Pagina_BoloPote(){
     return (
-        <main className={styles.corpo_fatias}>
+        <main className={styles.corpo_pote}>
             <section>
                 <img src={Banner} className={styles.foto} />
             </section>
@@ -16,7 +16,7 @@ function Pagina_Fatias(){
 
             <div className={styles.corpo_roxo}>
                 <div>
-                    <img src={Fatia} className={styles.foto_fatia} />
+                    <img src={Pote} className={styles.foto_pote} />
                     <p>Fatia de Kinder Bueno com massa de chocolate, recheio de kinder e cobertura de ganache de chocolate</p>
                     <h1>R$ 00,00</h1>
                     <div className={styles.caixa_botoes}>
@@ -26,7 +26,7 @@ function Pagina_Fatias(){
                 </div>
 
                 <div>
-                    <img src={Fatia} className={styles.foto_fatia} />
+                    <img src={Pote} className={styles.foto_pote} />
                     <p>Fatia de Kinder Bueno com massa de chocolate, recheio de kinder e cobertura de ganache de chocolate</p>
                     <h1>R$ 00,00</h1>
                     <div className={styles.caixa_botoes}>
@@ -36,7 +36,7 @@ function Pagina_Fatias(){
                 </div>
 
                 <div>
-                    <img src={Fatia} className={styles.foto_fatia} />
+                    <img src={Pote} className={styles.foto_pote} />
                     <p>Fatia de Kinder Bueno com massa de chocolate, recheio de kinder e cobertura de ganache de chocolate</p>
                     <h1>R$ 00,00</h1>
                     <div className={styles.caixa_botoes}>
@@ -46,7 +46,7 @@ function Pagina_Fatias(){
                 </div>
 
                 <div>
-                    <img src={Fatia} className={styles.foto_fatia} />
+                    <img src={Pote} className={styles.foto_pote} />
                     <p>Fatia de Kinder Bueno com massa de chocolate, recheio de kinder e cobertura de ganache de chocolate</p>
                     <h1>R$ 00,00</h1>
                     <div className={styles.caixa_botoes}>
@@ -60,7 +60,7 @@ function Pagina_Fatias(){
 
             <div className={styles.corpo_branco}>
                 <div>
-                    <img src={Fatia} className={styles.foto_fatia} />
+                    <img src={Pote} className={styles.foto_pote} />
                     <p>Fatia de Kinder Bueno com massa de chocolate, recheio de kinder e cobertura de ganache de chocolate</p>
                     <h1>R$ 00,00</h1>
                     <div className={styles.caixa_botoes}>
@@ -70,7 +70,7 @@ function Pagina_Fatias(){
                 </div>
 
                 <div>
-                    <img src={Fatia} className={styles.foto_fatia} />
+                    <img src={Pote} className={styles.foto_pote} />
                     <p>Fatia de Kinder Bueno com massa de chocolate, recheio de kinder e cobertura de ganache de chocolate</p>
                     <h1>R$ 00,00</h1>
                     <div className={styles.caixa_botoes}>
@@ -80,7 +80,7 @@ function Pagina_Fatias(){
                 </div>
 
                 <div>
-                    <img src={Fatia} className={styles.foto_fatia} />
+                    <img src={Pote} className={styles.foto_pote} />
                     <p>Fatia de Kinder Bueno com massa de chocolate, recheio de kinder e cobertura de ganache de chocolate</p>
                     <h1>R$ 00,00</h1>
                     <div className={styles.caixa_botoes}>
@@ -90,7 +90,7 @@ function Pagina_Fatias(){
                 </div>
 
                 <div>
-                    <img src={Fatia} className={styles.foto_fatia} />
+                    <img src={Pote} className={styles.foto_pote} />
                     <p>Fatia de Kinder Bueno com massa de chocolate, recheio de kinder e cobertura de ganache de chocolate</p>
                     <h1>R$ 00,00</h1>
                     <div className={styles.caixa_botoes}>
@@ -105,4 +105,4 @@ function Pagina_Fatias(){
     )
 }
 
-export default Pagina_Fatias
+export default Pagina_BoloPote

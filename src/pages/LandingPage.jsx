@@ -73,11 +73,11 @@ function LandingPage() {
             Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
           </p>
           <div className={styles.redes_sociais}>
-            <a href="#" className={styles.whatsapp} target="_blank" rel="noopener noreferrer">
+            <a href="https://api.whatsapp.com/message/7CVMFE6LLAFJC1?autoload=1&app_absent=0&utm_source=ig" className={styles.whatsapp} target="_blank" rel="noopener noreferrer">
               <img src={whatsLogo} className={styles.logoWhats} alt="WhatsApp" />
               <img src={whatsLogoHover} className={styles.logoWhatsHover} alt="WhatsApp Hover" />
             </a>
-            <a href="#" className={styles.instagram} target="_blank" rel="noopener noreferrer">
+            <a href="https://www.instagram.com/docesatelieformiga/" className={styles.instagram} target="_blank" rel="noopener noreferrer">
               <img src={instaLogo} className={styles.logoInsta} alt="Instagram" />
               <img src={instaLogoHover} className={styles.logoInstaHover} alt="Instagram Hover" />
             </a>
@@ -90,6 +90,7 @@ function LandingPage() {
 
         <section className={styles.produtos}>
           <div className={styles.ingredients_grid}>
+          <Link to="/Pagina_Fatias" className={styles.card_link}> 
             <div className={`${styles.ing_card} ${styles.c1}`}>
               <div className={styles.ing_img_wrap}>
                 <img src={fatias} className={styles.ing_img} alt="Fatias" />
@@ -98,7 +99,9 @@ function LandingPage() {
               <div className={styles.ing_name}>FATIAS</div>
               <div className={styles.ing_desc}>Cracked fresh from tropical paradises. Creamy, nutty, obsession-worthy.</div>
             </div>
+            </Link> 
 
+            <Link to="/Pagina_ProntaEntrega" className={styles.card_link}>
             <div className={`${styles.ing_card} ${styles.c2}`}>
               <div className={styles.ing_img_wrap}>
                 <img src={bolosProntaEntrega} className={styles.ing_img} alt="Bolos Pronta Entrega" />
@@ -107,7 +110,9 @@ function LandingPage() {
               <div className={styles.ing_name}>BOLOS PRONTA ENTREGA</div>
               <div className={styles.ing_desc}>Plump, antioxidant-packed, peak ripeness. Bold flavor every time.</div>
             </div>
+            </Link>
 
+            <Link to="/Pagina_Kit" className={styles.card_link}>
             <div className={`${styles.ing_card} ${styles.c3}`}>
               <div className={styles.ing_img_wrap}>
                 <img src={kitFesta} className={styles.ing_img} alt="Kit Festa" />
@@ -116,7 +121,9 @@ function LandingPage() {
               <div className={styles.ing_name}>KIT FESTA</div>
               <div className={styles.ing_desc}>Naturally sweet & smooth. The gym-bro's secret weapon.</div>
             </div>
+            </ Link>
 
+            <Link to="/Pagina_BoloPote" className={styles.card_link}>
             <div className={`${styles.ing_card} ${styles.c4}`}>
               <div className={styles.ing_img_wrap}>
                 <img src={boloPote} className={styles.ing_img} alt="Bolos de Pote" />
@@ -125,7 +132,9 @@ function LandingPage() {
               <div className={styles.ing_name}>BOLOS DE POTE</div>
               <div className={styles.ing_desc}>Hand-picked citrus. Bright, invigorating, no cap.</div>
             </div>
+            </Link>
 
+            <Link to="/Pagina_Doces" className={styles.card_link}>
             <div className={`${styles.ing_card} ${styles.c5}`}>
               <div className={styles.ing_img_wrap}>
                 <img src={doces} className={styles.ing_img} alt="Doces" />
@@ -134,6 +143,8 @@ function LandingPage() {
               <div className={styles.ing_name}>DOCES</div>
               <div className={styles.ing_desc}>Sun-ripened. The GOAT fruit. It's giving summer forever.</div>
             </div>
+            </Link>
+
           </div>
         </section>
         <img src={ondasBaixo} className={styles.ondas} alt="Ondas decorativas inferiores" />

@@ -20,7 +20,7 @@ function Header() {
                 <Link to={"/"} className={styles.logo}> Doces Ateliê Formiga </Link>
                 
                 <div className={styles.botoes}>
-                    <Link to={"/"} className={styles.botao}> Pedidos de Emergência </Link>
+                    <Link to={"/Pagina_ProntaEntrega"} className={styles.botao}> Pedidos de Emergência </Link>
                     <Link to={"/Login"} className={styles.botao}> Entrar/Cadastrar </Link>
                 </div>
 
@@ -34,9 +34,9 @@ function Header() {
             <nav className={styles.nav}>
                 <Link to={"/Pagina_Fatias"} className={styles.links_nav}> FATIAS </Link>
                 <Link to={"/Pagina_ProntaEntrega"} className={styles.links_nav}> PRONTA ENTREGA </Link>
-                <Link to={"/"} className={styles.links_nav}> KIT FESTA </Link>
-                <Link to={"/"} className={styles.links_nav}> BOLOS DE POTE </Link>
-                <Link to={"/"} className={styles.links_nav}> DOCES </Link>
+                <Link to={"/Pagina_Kit"} className={styles.links_nav}> KIT FESTA </Link>
+                <Link to={"/Pagina_BoloPote"} className={styles.links_nav}> BOLOS DE POTE </Link>
+                <Link to={"/Pagina_Doces"} className={styles.links_nav}> DOCES </Link>
             </nav>
 
             <div className={`${styles.menuMobileContainer} ${menuAberto ? styles.menuAberto : ""}`}>

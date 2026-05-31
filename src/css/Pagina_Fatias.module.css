@@ -129,3 +129,102 @@ section {
     text-decoration: none;
     transition: transform 0.2s ease, filter 0.2s ease;
 }
+
+@media (max-width: 1024px) {
+    section {
+        padding-top: 180px;
+    }
+
+    .corpo_roxo,
+    .corpo_branco {
+        padding: 35px;
+        height: auto;
+    }
+
+    .foto {
+        height: 320px;
+    }
+}
+
+@media (max-width: 992px) {
+    section {
+        padding-top: 150px;
+    }
+
+    .corpo_roxo,
+    .corpo_branco {
+        padding: 30px;
+        gap: 20px;
+    }
+
+    .foto_fatia {
+        width: 100%;
+    }
+
+    .caixa_botoes {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    section {
+        padding-top: 120px;
+    }
+
+    .corpo_roxo,
+    .corpo_branco {
+        flex-direction: column;
+        height: auto;
+        padding: 30px 20px;
+        margin-top: 60px;
+    }
+
+    .foto_fatia {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .caixa_botoes {
+        width: 100%;
+        padding-left: 0;
+    }
+
+    .ondas_cima,
+    .ondas_baixo {
+        margin-top: 60px;
+    }
+}
+
+@media (max-width: 576px) {
+    section {
+        padding-top: 80px;
+    }
+
+    .foto {
+        width: 100%;
+        height: 220px;
+    }
+
+    .corpo_roxo,
+    .corpo_branco {
+        padding: 20px 15px;
+        margin-top: 40px;
+    }
+
+    .foto_fatia {
+        width: 100%;
+    }
+
+    .caixa_botoes {
+        flex-direction: column;
+        height: auto;
+        gap: 10px;
+    }
+
+    .botao_comprar,
+    .botao_carrinho,
+    .botao_comprar_roxo {
+        width: 100%;
+        height: 44px;
+    }
+}

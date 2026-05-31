@@ -582,6 +582,12 @@
     resize: none !important;     
 }
 
+.card_link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
 @media (max-width: 992px) {
 
     .sobre {
