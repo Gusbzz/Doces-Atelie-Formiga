@@ -10,11 +10,11 @@
 
 .logos {
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
 }
 
 .redes_sociais {
+    display: flex;
     gap: 25px;
 }
 
@@ -34,13 +34,11 @@
     width: 100%;
     height: 85px;
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
-    align-items: justify;
+    align-items: center;
 }
 
 .links_nav {
-    align-items: justify;
     font-family: var(--fonte_texto);
     font-size: 20px;
     color: white;
@@ -58,5 +56,57 @@
     font-size: 20px;
     color: white;
     font-weight: 600;
+}
+
+@media (max-width: 1024px) {
+    .logo {
+        font-size: 48px; 
+    }
+
+    .links_nav, .copy {
+        font-size: 18px; 
+    }
+}
+
+@media (max-width: 768px) {
+    .footer {
+        height: auto; 
+        padding: 40px 20px; 
+        gap: 40px; 
+    }
+
+    .logos {
+        flex-direction: column; 
+        align-items: center;
+        gap: 20px;
+    }
+
+    .logo {
+        font-size: 36px; 
+    }
+
+    .nav {
+        flex-direction: row;
+    }
+
+    .botoes {
+        flex-direction: column;
+        height: auto;
+        gap: 15px;
+        margin-bottom: 15px; 
+    }
+
+    .botoes:last-child {
+        margin-bottom: 0; 
+    }
+
+    .links_nav {
+        font-size: 16px;
+    }
+
+    .copy {
+        font-size: 14px;
+        margin-top: 20px;
+    }
 }
 

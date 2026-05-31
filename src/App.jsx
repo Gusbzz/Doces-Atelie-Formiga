@@ -4,11 +4,11 @@ import './css/global.css';
 import Header from './components/Header';
 import LandingPage from './pages/LandingPage';
 import Login from "./pages/Login";
-import Produtos from "./pages/Produtos";
+
 import Pagina_Fatias from "./pages/Pagina_Fatias";
 import Pagina_ProntaEntrega from './pages/Pagina_ProntaEntrega';
 import Footer from './components/Footer'
-
+{/*import Produtos from "./pages/Produtos";*/}
 
 function App() {
 

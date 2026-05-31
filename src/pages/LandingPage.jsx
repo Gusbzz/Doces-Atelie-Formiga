@@ -73,11 +73,11 @@ function LandingPage() {
             Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
           </p>
           <div className={styles.redes_sociais}>
-            <a href="#" className={styles.whatsapp}>
+            <a href="#" className={styles.whatsapp} target="_blank" rel="noopener noreferrer">
               <img src={whatsLogo} className={styles.logoWhats} alt="WhatsApp" />
               <img src={whatsLogoHover} className={styles.logoWhatsHover} alt="WhatsApp Hover" />
             </a>
-            <a href="#" className={styles.instagram}>
+            <a href="#" className={styles.instagram} target="_blank" rel="noopener noreferrer">
               <img src={instaLogo} className={styles.logoInsta} alt="Instagram" />
               <img src={instaLogoHover} className={styles.logoInstaHover} alt="Instagram Hover" />
             </a>
