@@ -19,7 +19,7 @@ function Header() {
                 <Link to={"/Produtos"} className={styles.links_nav}> FATIAS </Link>
                 <Link to={"/"} className={styles.links_nav}> PRONTA ENTREGA </Link>
                 <Link to={"/"} className={styles.links_nav}> KIT FESTA </Link>
-                <Link to={"/"} className={styles.links_nav}> BOLO DE POTE </Link>
+                <Link to={"/"} className={styles.links_nav}> BOLOS DE POTE </Link>
                 <Link to={"/"} className={styles.links_nav}> DOCES </Link>
             </nav>
             <img src={linhaRoxaBaixo} className={styles.linhaRoxaBaixo} />

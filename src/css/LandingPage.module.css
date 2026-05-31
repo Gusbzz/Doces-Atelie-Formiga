@@ -239,12 +239,14 @@
     padding: 80px 24px 32px;
     position: relative;
     border-radius: 10px;
+    color: var(--bege);
     display: flex;
     flex-direction: column;
 }
 
 .ing_card:hover {
     background: var(--branco_bege);
+    color: #000000;
 }
 
 .ing_img_wrap {
@@ -439,7 +441,11 @@
     transition: transform 0.2s ease, filter 0.2s ease;
 }
 
-.botao_comprar:hover,
+.botao_comprar:hover{
+    transform: translateY(-2px);
+    background-color: var(--branco_bege);
+    color: var(--bege);
+}
 .botao_carrinho:hover {
     filter: brightness(0.9);
     transform: translateY(-2px);
@@ -565,7 +571,7 @@
 }
 
 .botao_enviar:hover {
-    background-color: var(--branco_bege);
+    background-color: var(--bege);
     transform: translateY(-2px);
 }
 

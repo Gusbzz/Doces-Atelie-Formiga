@@ -6,6 +6,7 @@ import Header from './components/Header';
 import LandingPage from './pages/LandingPage';
 import Login from "./pages/Login";
 import Produtos from "./pages/Produtos";
+import Footer from './components/Footer'
 
 function App() {
 
@@ -36,6 +37,8 @@ function App() {
         </Routes>
 
       </main>
+
+      <Footer />
 
     </Router>
   );
